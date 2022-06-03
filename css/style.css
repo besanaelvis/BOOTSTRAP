@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ysin embargo - indumentaria femenina*/
+h1 {
+    color: rgb(248, 0, 157);
+    text-decoration: wavy;
+    margin: 370px;
+}
+
+.imagen {
+    display: inline-block;
+    margin: 0px;
+    width: 15vw;
+    height: auto;
+}
+
+.imagen2 {
+    display: inline-block;
+    margin: 0px;
+    width: 20vw;
+    height: auto;
+}
+
+.imagen1 {
+    display: inline-block;
+    margin: 0px;
+    width: 25vw;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Pacifico.ttf";
+    src: url('../fonts/Pacifico.ttf');
+}
+
+.container{
+    margin: 10px;
+    width: 25vw;
+    height: auto;}
+
+
+.caja {
+    background-color: rgb(243, 110, 219);
+    width: 150%;
+    height: auto;
+    overflow: auto;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin: 100px 100px 200px 50px;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.otracaja {
+    width: 75vw;
+    padding: 100px 50px;
+    margin: 100px 100px 200px 50px;
+    background-color: #ff0bc6;
+    border-top: 5px solid grey;
+    border-right: 5px solid rgb(234, 234, 158);
+    border-bottom: 5px solid rgb(240, 204, 136);
+    border-left: 2px solid grey;
+}
+
+.caja {
+    width: 75vw;
+    padding: 100px 50px;
+    margin: 100px 100px 200px 50px;
+    background-color:#FF0A7C(185, 185, 243);
+    border-top: 10px solid grey;
+    border-right: 5px solid rgb(234, 234, 158);
+    border-bottom: 10px solid rgb(240, 204, 136);
+    border-left: 2px solid grey;
+}
+
+.cajahijo {
+    background-color: #FF0A7C;
+    text-align: center;
+    width: 40%;
+}
+
+.menu li {
+    display: inline;
+    text-align: center;
+    border: 1px solid#FF0A7C(211, 243, 163);
+    padding: 3px;
+    background-color: #FF0A7C;
+}
+
+.formulario2 {
+    text-align: center;
+    padding: 1px 1px;
+    margin: 10px 10px 10px 2px;
+}
+
+.body {
+    background-color: #E4C1F9;
+    padding: 125px 50px;
+    text-align: center;
+}
+
+/*pie de página*/
+.pie{
+    background-color: #FF0A7C;
+    padding: 100px 50px;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+/* Principal */
+.formulario1{
+    border-top: 20px solid grey;
+    background-color: #FF0A7C;
+    padding: 70px 20px;
+    text-align:right;
+}
+
+/*Clase de botones*/
+.menu1{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.ysinembargo{
+    text-align: center;
+    background-color: black;
+}
+
+.derechos{
+    text-align: center;
+    color: #000;
+}
+
+/*logo insta*/
+.insta{
+    height: 100px;
+    width: auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
