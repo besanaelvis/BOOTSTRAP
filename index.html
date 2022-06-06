@@ -11,6 +11,18 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
+<!--header-->
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <a class="navbar" href="http://instagram.com/ysinembargo_junin"></a>
+        <img class="logo" src="./img/logoropa.jpg" alt="logoropa" width="80" height="90"
+            class="d-inline-block align-text-top">
+        <h1 class="titulo"> Y sin embargo - indumentaria femenina</h1>
+    </div>
+</nav>
+<!--fin del header-->
+
+<!--Formulario encabezado-->
 </form>
 <form class="formulario1">
     <input type="text" name="" placeholder="Usuario">
@@ -18,91 +30,105 @@
     <input type="submit" value="Ingresar">
 </form>
 </form>
+<!--Fín formulario encabezado-->
 
 <body>
     <!-- Inicio Cabecera de página -->
+
     <nav>
         <ul class="menu1">
             <a href="./pages/contacto.html"><button type="button" class="btn btn-outline-dark">Contacto</button></a>
             <a href="./pages/empresa.html"><button type="button" class="btn btn-outline-dark">Empresa</button></a>
             <a href="./pages/shop.html"><button type="button" class="btn btn-outline-dark">Shop</button></a>
             <a href="./pages/productos.html"><button type="button" class="btn btn-outline-dark">Productos</button></a>
-    </nav>
-    </ul>
-    <nav>
-        <h1>Y sin embargo - indumentaria femenina</h1>
-
-        <img class="imagen1" src="./img/ropa.elegante.jpg" alt="Ropa de mujer">
-        <img class="imagen2" src="./img/imagwn2.jpg" alt="Ropa de mujer">
-
-
         </ul>
-        <nav>
-            <ul>
-                <h2> <img src="./img/coleccion.jpg" alt="nueva coleccion"></h2>
-                <img class="imagen" src="./img/ropa.jpg" alt="Ropa de Mujer">
-            </ul>
-        </nav>
-        </header>
-        <!-- Fin de la cabecera de página-->
+    </nav>
 
-        <!-- Contenido de la página principal-->
-        <main>
-            <h3>Bienvenidos</h3>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div id="carousel" class="carousel-item active">
+                <img src="./img/ropa.elegante.jpg" class="d-block w-100" alt="1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/ropa.elegante.jpg" class="d-block w-100" alt="2">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/ropa.elegante.jpg" class="d-block w-100" alt="3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
 
-            <div class="container">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Porro tenetur id velit dolorem voluptas enim consectetur accusantium tempora sed?
-                    Omnis tenetur aut ratione possimus officia numquam sint consequuntur tempora nesciunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quod maiores.
-                    Repudiandae quibusdam delectus voluptatibus iste quo voluptate quae maiores,
-                    harum, corporis dolorem unde error culpa odit aspernatur molestias numquam!</p>
+    </header>
+    <!-- Fin de la cabecera de página-->
+
+    <!-- Contenido de la página principal-->
+    <main>
+        <h3>Bienvenidos</h3>
+
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Porro tenetur id velit dolorem voluptas enim consectetur accusantium tempora sed?
+                Omnis tenetur aut ratione possimus officia numquam sint consequuntur tempora nesciunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quod maiores.
+                Repudiandae quibusdam delectus voluptatibus iste quo voluptate quae maiores,
+                harum, corporis dolorem unde error culpa odit aspernatur molestias numquam!</p>
+        </div>
+
+        <form class="formulario2">
+            <fieldset>
+                <legend>Talle de remera</legend>
+                <select name="talles" class="formulario2">
+                    <option value="S">S</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="XL">XL</option>
+                    <option value="XL">XXL</option>
+                </select>
+            </fieldset>
+
+
+            <div class="otracaja">
+                <p><img src="./img/coleccion.jpg" alt="nueva coleccion"></p>
             </div>
 
-            <form class="formulario2">
-                <fieldset>
-                    <legend>Talle de remera</legend>
-                    <select name="talles" class="formulario2">
-                        <option value="S">S</option>
-                        <option value="L">L</option>
-                        <option value="M">M</option>
-                        <option value="XL">XL</option>
-                        <option value="XL">XXL</option>
-                    </select>
-                </fieldset>
-                <!--Aquí irán los elementos de formulario -->
-
-
-                <div class="otracaja">
-                    <p><img src="./img/coleccion.jpg" alt="nueva coleccion"></p>
+            <div class="caja">
+                <div class="cajahijo">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, nobis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, est?</p>
                 </div>
+            </div>
+        </form>
+    </main>
+    <!-- Fin del contenido de la página principal-->
 
-                <div class="caja">
-                    <div class="cajahijo">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, nobis!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, est?</p>
-                    </div>
-                </div>
-            </form>
-        </main>
-        <!-- Fin del contenido de la página principal-->
+    <!-- Pie de página-->
+    <footer>
+        <ul class="pie">
+            <a href="https://www.facebook.com/ysinembargo.juninOK">
+                <img class="face" src="./img/face.logo.jpeg" alt="facebook"></a>
+            <a href="http://instagram.com/ysinembargo_junin">
+                <img class="insta" src="./img/li.jpg" alt="instagram"></a>
+        </ul>
+        <address class="derechos">
+            <p>Todos los derechos reservados</p>
+        </address>
 
-        <!-- Pie de página-->
-        <footer>
-            <ul class="pie">
-                <a href="http://instagram.com/ysinembargo_junin">
-                    <img class="insta" src="./img/li.jpg" alt="instagram"></a>
-            </ul>
-            <address class="derechos">
-                <p>Todos los derechos reservados</p>
-            </address>
+    </footer>
+    <!--Fin del pie de página-->
 
-        </footer>
-        <!--Fin del pie de página-->
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

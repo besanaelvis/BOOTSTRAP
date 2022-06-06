@@ -4,44 +4,79 @@
     box-sizing: border-box;
 }
 
-/* Ysin embargo - indumentaria femenina*/
+@media screen and (min-width:340px) and (orientation:landscape){
+}
+@media screen and (max-width:992px) and (orientation:landscape){
+}
+@media screen and (min-width:1201px) and (orientation:landscape){
+} 
+
+
+.container-fluid{
+    background-color: #ded5d5;
+}
+.navbar{
+    margin:10px;
+    text-align:left;
+    filter: brightness(1.2);
+    mix-blend-mode: multiply;
+}
+
+.titulo{
+    font-family: "sinkin-sans.otf";
+    src: url('../fonts/sinkin-sans/SinkinSans-600SemiBold.otf');
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+/*carousel*/
+.carousel{
+    margin: 75px;;
+    width:90%;
+    height:;
+    text-align: center;
+}
+
+/*Contacto*/
+.comentarios{
+    margin: 350px;
+    display: center;
+    margin-left: center;
+    margin-right: center;
+}
+
+/*barra header*/
+.nav{
+    justify-content: center;
+}
+
+/*Ysin embargo - indumentaria femenina*/
 h1 {
-    color: rgb(248, 0, 157);
-    text-decoration: wavy;
-    margin: 370px;
+    color: rgb(9, 9, 9);
+        margin: 70px;
+    font-family: "Pacifico.ttf";
+    src: url('../fonts/Pacifico.ttf');
+    vertical-align: top;
 }
 
-.imagen {
-    display: inline-block;
-    margin: 0px;
-    width: 15vw;
-    height: auto;
-}
 
-.imagen2 {
-    display: inline-block;
-    margin: 0px;
-    width: 20vw;
-    height: auto;
-}
-
-.imagen1 {
-    display: inline-block;
-    margin: 0px;
-    width: 25vw;
-    height: auto;
+@font-face{
+    font-family:"KaushanScript-Regular.otf";
+    src: url('../fonts/KaushanScript-Regular.otf');
 }
 
 @font-face {
-    font-family: "Pacifico.ttf";
-    src: url('../fonts/Pacifico.ttf');
+    font-family: "sinkin-sans.otf";
+    src: url('../fonts/sinkin-sans/SinkinSans-600SemiBold.otf');
 }
 
-.container{
+
+.container {
     margin: 10px;
     width: 25vw;
-    height: auto;}
-
+    height: auto;
+}
 
 .caja {
     background-color: rgb(243, 110, 219);
@@ -59,7 +94,7 @@ h1 {
 
 .otracaja {
     width: 75vw;
-    padding: 100px 50px;
+    padding: 200px 50px;
     margin: 100px 100px 200px 50px;
     background-color: #ff0bc6;
     border-top: 5px solid grey;
@@ -70,9 +105,9 @@ h1 {
 
 .caja {
     width: 75vw;
-    padding: 100px 50px;
+    padding: 200px 50px;
     margin: 100px 100px 200px 50px;
-    background-color:#FF0A7C(185, 185, 243);
+    background-color: #FF0A7C(185, 185, 243);
     border-top: 10px solid grey;
     border-right: 5px solid rgb(234, 234, 158);
     border-bottom: 10px solid rgb(240, 204, 136);
@@ -100,14 +135,14 @@ h1 {
 }
 
 .body {
-    background-color: #E4C1F9;
-    padding: 125px 50px;
+    background-color: #ba5fef;
+    padding: 120px 50px;
     text-align: center;
 }
 
 /*pie de página*/
-.pie{
-    background-color: #FF0A7C;
+.pie {
+    background-color: #696868;
     padding: 100px 50px;
     text-align: center;
     height: auto;
@@ -115,33 +150,45 @@ h1 {
 }
 
 /* Principal */
-.formulario1{
-    border-top: 20px solid grey;
-    background-color: #FF0A7C;
-    padding: 70px 20px;
-    text-align:right;
+.formulario1 {
+    background: url(../img/banner1.jpg) no-repeat;
+    background-size:cover;
+    padding: 160px 20px;
+    text-align: right;   
 }
-
+.formulario1{
+    border-top:();
+}
 /*Clase de botones*/
-.menu1{
+.menu1 {
     padding: 10px 0px;
     text-align: center;
 }
 
-.ysinembargo{
+.ysinembargo {
     text-align: center;
     background-color: black;
 }
 
-.derechos{
+
+.derechos {
     text-align: center;
     color: #000;
+    
 }
 
 /*logo insta*/
-.insta{
+.insta {
     height: 100px;
     width: auto;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
+.face{
+    height: 50px;
+    width: auto;
+    filter: brightness(1.5);
+    mix-blend-mode:multiply;
+}
+
+
